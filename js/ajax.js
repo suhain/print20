@@ -35,18 +35,28 @@ function send()
         beforeSend: function()
         {
             var circulation = document.forms[0].circulation.value;
-            if (circulation == 0)
+            if (!$.isNumeric(circulation))
+            {
+                alert("Тираж должен быть числом");
+                document.forms[0].circulation.focus();
+                return false;
+            }
+            if (circulation <= 0)
             {
                 alert("Тираж должен быть больше нуля");
                 document.forms[0].circulation.focus();
                 return false;
             }
-
             var product_width = $('#format-width').val();
             var product_height = $('#format-height').val();
-            if (product_width == "" || product_height == "")
+            if (!$.isNumeric(product_width) || !$.isNumeric(product_height))
             {
-                alert("Неверный формат");
+                alert("Формат должен быть числом");
+                return false;
+            }
+            if (product_width <= 0 || product_height <= 0)
+            {
+                alert("Формат должен быть больше нуля");
                 return false;
             }
             var pages = document.forms[0].pages.value;

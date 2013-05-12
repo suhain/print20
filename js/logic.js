@@ -6,6 +6,17 @@ $(document).ready(function() {
             $(id).removeAttr("disabled");
         }
     };
+    var update_lamination = function(product, material, density, cover) {
+        var lamination;
+        if (cover == "")
+            lamination = $("#lamination");
+        else
+            lamination = $("#cover-lamination");
+//        alert(product + " " + material + " " + density + " " + cover);
+        $(lamination).load("update_lamination.php?product=" + product + "&material=" + material + "&density=" + density + cover, function() {
+            unavailable(lamination);
+        });
+    };
     var update_formats = function() {
         var current_format = $("#format-product").val();
         var format = current_format.split("x");
@@ -31,6 +42,25 @@ $(document).ready(function() {
             material = $("#cover-material").val();
         $(density).load("update_density.php?product=" + product + "&material=" + material + cover, function() {
             unavailable(density);
+            update_lamination(product, material, $(density).val(), cover);
+        });
+    };
+    var update_material = function(product, cover) {
+        var material, surface, density;
+        if (cover == "") {
+            material = "#material";
+            surface = "#surface";
+            density = "#density";
+        } else {
+            material = "#cover-material";
+            surface = "#cover-surface";
+            density = "#cover-density";
+        }
+        unavailable($(material));
+        update_surface(surface, cover, product);
+        update_density(density, cover, product);
+        $(density).change(function() {
+            update_lamination(product, $(material).val(), $(density).val(), cover);
         });
     };
     var show_cover = function(value) {
@@ -53,14 +83,10 @@ $(document).ready(function() {
             unavailable("#cover-chromacity");
         });
         $("#cover-material").load("update_material.php?product=" + product + "&cover", function() {
-            unavailable("#cover-material");
-            update_surface("#cover-surface", "&cover", product);
-            update_density("#cover-density", "&cover", product);
+            update_material(product, "&cover");
         });
         $("#cover-material").change(function() {
-            unavailable("#cover-material");
-            update_surface("#cover-surface", "&cover", product);
-            update_density("#cover-density", "&cover", product);
+            update_material(product, "&cover");
         });
     };
     var update_select_cover = function(product) {
@@ -75,9 +101,9 @@ $(document).ready(function() {
             update_cover(product);
         }
     };
-
-    $("#choose-product").change(function() {
-        var current_product = $(this).val();
+    var update_product = function() {
+        var current_product = $("#choose-product").val();
+//        alert(current_product);
         $("#format-product").load("update_format.php?product=" + current_product, function() {
             $("#new_format").removeAttr("checked");
             $("#format-width, #format-height").attr("disabled", "disabled");
@@ -85,28 +111,29 @@ $(document).ready(function() {
         });
         $("#page").load("update_pages.php?product=" + current_product);
         $("#material").load("update_material.php?product=" + current_product, function() {
-            unavailable($(this));
-            update_surface("#surface", "", current_product);
-            update_density("#density", "", current_product);
+            update_material(current_product, "");
         });
         $("#material").change(function() {
-            unavailable($(this));
-            update_surface("#surface", "", current_product);
-            update_density("#density", "", current_product);
+            update_material(current_product, "");
         });
         $("#chromacity").load("update_chromacity.php?product=" + current_product, function() {
-            unavailable($(this));
+            unavailable($("#chromacity"));
         });
         $("#cover").load("update_cover.php?product=" + current_product, function() {
             update_select_cover(current_product);
-            unavailable($(this));
+            unavailable($("#cover"));
         });
         $("#cover").change(function() {
             update_select_cover(current_product);
-            unavailable($(this));
+            unavailable($("#cover"));
         });
+    };
+    $("#choose-product").load("update_product.php", function() {
+        update_product();
     });
-    $("#choose-product").change();
+    $("#choose-product").change(function() {
+        update_product();
+    });
     $("#format-product").change(function() {
         update_formats();
     });

@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="css/bootstrap.css"  media="screen">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/style.css"  media="screen">
+
     </head>
     <body>
         <form action="" method="post">
@@ -26,14 +27,7 @@
                             <div class="span1 help-calc"></div>
                             <div class="span2" style="width:150px; margin-left:10px;"><label for="choose-product">Выберите продукт:</label></div>
                             <div class="span3">
-                                <select name="choose-product" id="choose-product" style="width:170px; float:left;">
-                                    <?php
-                                    require_once "save_product.php";
-                                    foreach ($prod as $key => $value) {
-                                        echo "<option value=" . $key . ">" . $value["name_ru"] . "</option>";
-                                    }
-                                    ?>
-                                </select>
+                                <select name="choose-product" id="choose-product" style="width:170px; float:left;"></select>
                             </div>
                         </div>
                         <div class="row">
@@ -49,7 +43,7 @@
                                 <label for="circulation">Тираж шт.:</label>
                             </div>
                             <div class="span3">
-                                <input name="circulation" type="text" maxlength="8" id="circulation" style="width:157px;" pattern="^[0-9]+$">
+                                <input name="circulation" type="text" maxlength="8" id="circulation" style="width:157px;">
                             </div>
                         </div>
                         <div class="row">
@@ -66,14 +60,14 @@
                             <div class="span1 help-calc"></div>
                             <div class="span2" style="width:158px; margin-left:10px;">
                                 <label for="format-width">Ширина мм:</label>
-                                <input type="text" maxlength="3" name="format-height" id="format-height" style="width:50px" value="" disabled pattern="^[ 0-9]+$">
+                                <input type="text" maxlength="3" name="format-height" id="format-height" style="width:50px" value="" disabled>
                             </div>
                             <div class="span1" style="width:40px; margin-left:10px;" title="Повернуть">
                                 <button class="btn" type="button" id="exchange"><i class="icon-exchange icon-1.5x"></i></button>
                             </div>
                             <div class="span2" style="width:162px; margin-left:13px;">
                                 <label for="format-height">Высота мм:</label>
-                                <input type="text" maxlength="3" name="format-width" id="format-width" style="width:50px" value="" disabled pattern="^[ 0-9]+$">
+                                <input type="text" maxlength="3" name="format-width" id="format-width" style="width:50px" value="" disabled>
                             </div>
                         </div>
                     </div>
@@ -82,7 +76,7 @@
                     <div class="span6" id="second-param">
                         <div class="row">
                             <div class="span6">
-                                <p style="text-align:center; font-weight:bold;">Продукт</p>
+                                <p style="font-weight:bold;">Продукт</p>
                             </div>
                         </div>
                         <div class="row">
@@ -120,7 +114,7 @@
                         </div>
                     </div>
                     <div class="span3 fourth" style="display:none;" id="fourth-param">
-                        <p style="text-align:center; font-weight:bold;">Обложка</p>
+                        <p style="font-weight:bold;">Обложка</p>
                         <div class="row">
                             <div class="span3" id="cover-page"></div> 
                         </div>
@@ -148,10 +142,10 @@
                 </div>
                 <div class="row">
                     <div class="span6 postprint">
-                        <p style="text-align:center; font-weight:bold;">Доступные постпечатные операции</p>
+                        <p style="font-weight:bold;">Доступные постпечатные операции</p>
                         <div class="row">
                             <div class="span6" id="fifth-param">
-                                <p style="text-align:center; font-weight:bold;">Продукт</p>
+                                <p style="font-weight:bold;">Продукт</p>
                                 <div class="row">
                                     <div class="span1 help-calc">
                                     </div>
@@ -180,7 +174,7 @@
                                 </div>
                             </div>
                             <div class="span3 fourth" style="display:none; min-height:185px;" id="sixth-param">
-                                <p style="text-align:center; font-weight:bold;">Обложка</p>
+                                <p style="font-weight:bold;">Обложка</p>
                                 <div class="row">
                                     <div class="span3">
                                         <select name="cover-vd" id="cover-vd" style="width:170px;"></select>

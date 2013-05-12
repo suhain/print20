@@ -1,7 +1,7 @@
 <?php
 
 if (!isset($_GET["cover"])) {
-    $simple_product = array(
+    $simple = array(
         "Booklet",
         "Eurobooklet",
         "Booklet_(3)",
@@ -14,8 +14,8 @@ if (!isset($_GET["cover"])) {
     );
 
     function is_simple($product) {
-        global $simple_product;
-        foreach ($simple_product as $key)
+        global $simple;
+        foreach ($simple as $key)
             if ($product == $key)
                 return true;
         return false;
@@ -41,14 +41,14 @@ if (!isset($_GET["cover"])) {
         echo "<option value='self_adhesive'>Самоклейка</option>";
     }
 } else {
-    $simple_product = array(
+    $simple = array(
         "Booklet_(brace)",
         "Booklet_(spring)",
         "Notebook_(spring)",
     );
     function is_simple($product) {
-        global $simple_product;
-        foreach ($simple_product as $key)
+        global $simple;
+        foreach ($simple as $key)
             if ($product == $key)
                 return true;
         return false;
