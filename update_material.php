@@ -31,11 +31,7 @@ if (!isset($_GET["cover"])) {
         echo "<option value='carton'>Картон</option>";
     }
     
-    if ($_GET["product"] == "Notebook_(spring)") {
-        echo "<option value='paper'>Мелованная бумага</option>";
-    }
-
-    if ($_GET["product"] == "Flyer" || $_GET["product"] == "Booklet_(termo-glue)" || $_GET["product"] == "Kubarik") {
+    if ($_GET["product"] == "Flyer" || $_GET["product"] == "Booklet_(termo-glue)" || $_GET["product"] == "Kubarik" || $_GET["product"] == "Notebook_(spring)") {
         echo "<option value='paper'>Мелованная бумага</option>";
         echo "<option value='offset'>Офсетная бумага</option>";
     }
