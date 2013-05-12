@@ -41,7 +41,7 @@ class array_to_xml {
     private function getXML($data) {
         foreach ($data as $key => $val) {
             if (is_array($val)) {
-                if ($key == 'attrs') {
+                if ($key == '@attributes') {
                     $attrs = & $val;
                     foreach ($attrs as $name_attr => $value_attr) {
                         $this->writer->writeAttribute($name_attr, $value_attr);
@@ -61,5 +61,5 @@ class array_to_xml {
 
 }
 
-//end of Array2XML.php
+//end of array_to_xml.php
 ?>

@@ -15,17 +15,19 @@ function send()
     data += $('#lamination').attr('name') + "=" + $('#lamination').val() + "&";
     data += $('#uf').attr('name') + "=" + $('#uf').val() + "&";
     // part : cover
-    data += $('#cover-pages').attr('name') + "=" + $('#cover-pages').val() + "&";
-    data += $('#cover-chromacity').attr('name') + "=" + $('#cover-chromacity').val() + "&";
-    data += $('#cover-material').attr('name') + "=" + $('#cover-material').val() + "&";
-    data += $('#cover-surface').attr('name') + "=" + $('#cover-surface').val() + "&";
-    data += $('#cover-density').attr('name') + "=" + $('#cover-density').val() + "&";
-    data += $('#cover-vd').attr('name') + "=" + $('#cover-vd').val() + "&";
-    data += $('#cover-lamination').attr('name') + "=" + $('#cover-lamination').val() + "&";
-    data += $('#cover-uf').attr('name') + "=" + $('#cover-uf').val() + "&";
+    data += $('#cover').attr('name') + "=" + $('#cover').val() + "&";
+    if ($("#cover").val() == 2) {
+        data += $('#cover-pages').attr('name') + "=" + $('#cover-pages').val() + "&";
+        data += $('#cover-chromacity').attr('name') + "=" + $('#cover-chromacity').val() + "&";
+        data += $('#cover-material').attr('name') + "=" + $('#cover-material').val() + "&";
+        data += $('#cover-surface').attr('name') + "=" + $('#cover-surface').val() + "&";
+        data += $('#cover-density').attr('name') + "=" + $('#cover-density').val() + "&";
+        data += $('#cover-vd').attr('name') + "=" + $('#cover-vd').val() + "&";
+        data += $('#cover-lamination').attr('name') + "=" + $('#cover-lamination').val() + "&";
+        data += $('#cover-uf').attr('name') + "=" + $('#cover-uf').val() + "&";
+    }
     // comment
     data += $('#comment').attr('name') + "=" + $('#comment').val() + "";
-//    alert(data);
     $.ajax({
         url: "calc.php",
         type: "post",
@@ -68,20 +70,21 @@ function send()
                 document.forms[0].pages.focus();
                 return false;
             }
-            var cover_pages = document.forms[0].cover_pages.value;
-            if (cover_pages % 4 != 0)
-            {
-                alert("Количество полос в обложке данного продукта должно быть кратно четырём");
-                document.forms[0].cover_pages.focus();
-                return false;
+            if ($("#cover").val() == 2) {
+                var cover_pages = document.forms[0].cover_pages.value;
+                if (cover_pages % 4 != 0)
+                {
+                    alert("Количество полос в обложке данного продукта должно быть кратно четырём");
+                    document.forms[0].cover_pages.focus();
+                    return false;
 
+                }
             }
             return true;
         },
         success: function(html)
         {
             $("#result").empty();
-            $("#comment").empty();
             $("#result").append(html);
         }
     });

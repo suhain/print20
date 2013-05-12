@@ -3,18 +3,14 @@
     <head>
         <meta charset="utf-8">
         <title>Калькулятор</title>
-        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
-        <!--<script type="text/javascript" src="js/calc.js"></script>-->
         <script type="text/javascript" src="js/logic.js"></script>
         <script type="text/javascript" src="js/ajax.js"></script>
-
         <link rel="stylesheet" href="css/bootstrap.min.css"  media="screen">
         <link rel="stylesheet" href="css/bootstrap.css"  media="screen">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/style.css"  media="screen">
-
     </head>
     <body>
         <form action="" method="post">
@@ -40,12 +36,6 @@
                                 </select>
                             </div>
                         </div>
-                        <!--                        <div class="row">
-                                                    <div class="span1 help-calc"></div>
-                                                    <div class="span3" id="checkbox">
-                                                        <input type="checkbox" name="cover-checkbox" id="cover-checkbox" >обложка из того же материала
-                                                    </div>
-                                                </div>-->
                         <div class="row">
                             <div class="span1 help-calc"></div>
                             <div class="span2" style="width:150px; margin-left:10px;"><label for="cover">Обложка:</label></div>
