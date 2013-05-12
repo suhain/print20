@@ -17,10 +17,8 @@ if (!isset($_GET["cover"])) {
         if ($material == "paper") {
             range_d(200, 1000);
         } else range_d(0, 1000);
-    } else if ($product == "Booklet_(termo-glue)") {
+    } else if ($product == "Booklet_(termo-glue)" || $product == "Kubarik") {
         range_d(0, 150);    
-    } else if ($product == "Kubarik") {
-        range_d(0, 150);
     } else range_d(0, 1000);
 } else {
     if ($product == "Booklet_(termo-glue)") {

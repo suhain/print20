@@ -17,7 +17,6 @@ if (!isset($_GET["cover"])) {
         "Eurobooklet",
         "Booklet_(3)",
         "Leaflet",
-        "Booklet_(brace)",
         "Booklet_(spring)",
         "Postcard",
         "Flyer",
@@ -38,7 +37,7 @@ if (!isset($_GET["cover"])) {
     if (is_simple($product) && $common) {
         foreach ($lamination as $value)
             echo $value;
-    } else if (is_simple($product) && $material == "self_adhesive") {
+    } else if ((is_simple($product) && $material == "self_adhesive") || ($product == "Booklet_(brace)" && $common)) {
         echo $lamination[0];
         echo $lamination[1];
         echo $lamination[2];

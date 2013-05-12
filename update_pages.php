@@ -10,10 +10,6 @@ if (!isset($_GET["cover"])) {
         echo "<input type='text' style='width:165px' name='pages' id='pages' maxlength='6'>";
     }
 } else {
-    if ($product == "Booklet_(termo-glue)") {
-        echo "<input type='text' style='width:165px' name='cover-pages' id='cover_pages' value=''></span>";
-    } else {
-        echo "<input type='text' style='width:165px' name='cover-pages' id='cover_pages' value='4' disabled></span>";
-    }
+    echo "<input type='text' style='width:165px' name='cover-pages' id='cover_pages' value='4' disabled></span>";
 }
 ?>

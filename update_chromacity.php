@@ -9,7 +9,7 @@ $chromacity = array(
     5 => "<option value='0x0'>0x0</option>"
 );
 if (!isset($_GET["cover"])) {
-    if ($_GET["product"] == "Booklet_(brace)" || $_GET["product"] == "Booklet_(termo-glue)") {
+    if ($_GET["product"] == "Booklet_(brace)" || $_GET["product"] == "Booklet_(termo-glue)" || $_GET["product"] == "Booklet_(spring)") {
         echo $chromacity[0];
         echo $chromacity[3];
     } else if ($_GET["product"] == "Sticker" || $_GET["product"] == "Stamping_sticker") {
