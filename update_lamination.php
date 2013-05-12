@@ -17,15 +17,14 @@ if (!isset($_GET["cover"])) {
         "Eurobooklet",
         "Booklet_(3)",
         "Leaflet",
-        "Booklet_(spring)",
         "Postcard",
         "Flyer",
         "Poster",
-        "Notebook_(spring)",
         "Stamping_product",
         "Sticker",
         "Stamping_sticker"
     );
+
     function is_simple($product) {
         global $simple;
         foreach ($simple as $key)
@@ -37,7 +36,11 @@ if (!isset($_GET["cover"])) {
     if (is_simple($product) && $common) {
         foreach ($lamination as $value)
             echo $value;
-    } else if ((is_simple($product) && $material == "self_adhesive") || ($product == "Booklet_(brace)" && $common)) {
+    } else if (($product == "Booklet_(brace)" || $product == "Booklet_(spring)") && $common) {
+        echo $lamination[0];
+        echo $lamination[3];
+        echo $lamination[4];
+    } else if (is_simple($product) && $material == "self_adhesive") {
         echo $lamination[0];
         echo $lamination[1];
         echo $lamination[2];
@@ -45,11 +48,12 @@ if (!isset($_GET["cover"])) {
         echo $lamination[0];
     }
 } else {
-     $simple = array(
+    $simple = array(
         "Booklet_(brace)",
         "Booklet_(spring)",
         "Notebook_(spring)",
     );
+
     function is_simple($product) {
         global $simple;
         foreach ($simple as $key)
@@ -57,6 +61,7 @@ if (!isset($_GET["cover"])) {
                 return true;
         return false;
     }
+
     if (is_simple($product) && $common) {
         foreach ($lamination as $value)
             echo $value;

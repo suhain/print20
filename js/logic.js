@@ -103,7 +103,7 @@ $(document).ready(function() {
     };
     var update_product = function() {
         var current_product = $("#choose-product").val();
-//        alert(current_product);
+        alert(current_product);
         $("#format-product").load("update_format.php?product=" + current_product, function() {
             $("#new_format").removeAttr("checked");
             $("#format-width, #format-height").attr("disabled", "disabled");

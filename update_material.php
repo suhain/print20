@@ -9,7 +9,6 @@ if (!isset($_GET["cover"])) {
         "Booklet_(brace)",
         "Booklet_(spring)",
         "Poster",
-        "Notebook_(spring)",
         "Stamping_product"
     );
 
@@ -30,6 +29,10 @@ if (!isset($_GET["cover"])) {
     if ($_GET["product"] == "Postcard") {
         echo "<option value='paper'>Мелованная бумага</option>";
         echo "<option value='carton'>Картон</option>";
+    }
+    
+    if ($_GET["product"] == "Notebook_(spring)") {
+        echo "<option value='paper'>Мелованная бумага</option>";
     }
 
     if ($_GET["product"] == "Flyer" || $_GET["product"] == "Booklet_(termo-glue)" || $_GET["product"] == "Kubarik") {
