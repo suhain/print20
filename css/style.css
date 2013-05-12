@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/* ------------ choose.html -----------*/
+.choose{
+	width:560px;
+	margin:0;
+	border:0;
+	padding:0 20px 30px 0;
+		border:1px solid #999;
+	border-radius:8px;
+	
+}
+.choose li{
+	width:150px;
+	height:170px;
+	float: left;
+	margin:7px;
+	padding:10px 10px 0 10px;
+}
+.choose li a{
+	width:150px;
+	height:170px;
+	border:1px solid #999;
+	border-radius:8px;
+}
+.choose li a:hover{
+	border:1px solid #999;
+	border-radius:8px;
+}
+.choose li img{
+	position:relative;
+	width:150px;
+	height:150px;
+	z-index:1;
+}
+.choose li p{
+	position:relative;
+	width:100%;
+	margin:0;
+	text-align:center;
+	z-index:2;
+}
+/*------------ calc.html -----------*/
+#first-param, #second-param, #third-param, #fourth-param, #fifth-param, #sixth-param, #seventh-param, #seven{
+	border:1px solid #999;
+	border-radius:20px;
+	padding:10px;
+	margin-top:10px;
+}
+#first-param label, #second-param label, #fifth-param label{
+	padding:5px;
+	float:left;
+}
+#first-param input, #second-param input, #fourth-param input{
+	float:left;
+}
+#first-param p,#second-param p, #fourth-param p{
+	padding:5px;
+	float:left;
+	margin:0;
+}
+.help-calc{
+	float:left;
+	margin-right: 1px;
+	width: 1px; /* отступ от края слева */
+}
+.help-calc a{
+	text-decoration:none;
+}
+#third-param label{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+#seventh-param label{
+	padding:5px 0 5px 0;
+}
+#seventh-param input{
+	float: left;
+	margin-left: 0;
+	margin-right: 5px;
+}
+#seventh-param p{
+	padding:5px;
+	float:left;
+	margin-right: 5px;
+}
+.postprint{
+/*	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+*/}

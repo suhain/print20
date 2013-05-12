@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<equipment>
+    <machine>
+        <type>offset</type>
+        <slug>sm74</slug>
+        <title>Heidelberg Speedmaster SM 74</title>        
+        <print_sections>4</print_sections>             
+        <clapper>13</clapper>
+        <technical_field>10</technical_field>
+        <paper_format>720x520</paper_format>
+        <paper_turn/>
+        <outlet>9</outlet>
+    </machine>
+    
+    <machine>
+        <type>offset</type>
+        <slug>sm52</slug>
+        <title>Heidelberg Speedmaster SM 52</title>        
+        <print_sections>4</print_sections>              
+        <clapper>10</clapper>
+        <wd_section/>  
+        <technical_field>6</technical_field>
+        <paper_format>520x360</paper_format>
+        <paper_turn/>
+        <outlet>10</outlet>
+    </machine>
+    
+    <machine>
+        <type>digital</type>
+        <slug>6060</slug>
+        <title>Digital printer</title>        
+        <print_sections>4</print_sections>              
+        <clapper>10</clapper>
+        <technical_field>6</technical_field>
+        <paper_format>520x360</paper_format>
+        <outlet>10</outlet>
+    </machine>
+    
+</equipment>

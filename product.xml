@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product name="Booklet"><format>105x148</format><operations><folding>1</folding></operations><parts><block><chromacity>4x4</chromacity><pages>4</pages><density>90</density></block><materials><type>paper</type><surface>matted</surface></materials><operations/></parts></product>

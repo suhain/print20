@@ -1,0 +1,111 @@
+<materials>
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 72*104, 100 г/м2" type="paper" code="5875" density="100" format="720x1040" cost1000="3630.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 72*104, 115 г/м2" type="paper" code="5882" density="115" format="720x1040" cost1000="4180.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 72*104, 130 г/м2" type="paper" code="5889" density="130" format="720x1040" cost1000="4720.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 72*104, 150 г/м2" type="paper" code="5896" density="150" format="720x1040" cost1000="5450.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 72*104, 170 г/м2" type="paper" code="5903" density="170" format="720x1040" cost1000="6300.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 72*104, 200 г/м2" type="paper" code="5910" density="200" format="720x1040" cost1000="7410.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 72*104, 250 г/м2" type="paper" code="5917" density="250" format="720x1040" cost1000="9270.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 72*104, 300 г/м2" type="paper" code="5924" density="300" format="720x1040" cost1000="11120.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 72*104, 90 г/м2" type="paper" code="5868" density="90" format="720x1040" cost1000="3270.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 47*62, 100 г/м2" type="paper" code="5869" density="100" format="470x620" cost1000="1410.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 47*62, 115 г/м2" type="paper" code="5876" density="115" format="470x620" cost1000="1630.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 47*62, 130 г/м2" type="paper" code="5883" density="130" format="470x620" cost1000="1840.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 47*62, 150 г/м2" type="paper" code="5890" density="150" format="470x620" cost1000="2120.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 47*62, 170 г/м2" type="paper" code="5897" density="170" format="470x620" cost1000="2450.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 47*62, 200 г/м2" type="paper" code="5904" density="200" format="470x620" cost1000="2880.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 47*62, 250 г/м2" type="paper" code="5911" density="250" format="470x620" cost1000="3610.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 47*62, 300 г/м2" type="paper" code="5918" density="300" format="470x620" cost1000="4330.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 47*62, 90 г/м2" type="paper" code="5862" density="90" format="470x620" cost1000="1270.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 47*65, 100 г/м2" type="paper" code="5870" density="100" format="470x650" cost1000="1480.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 47*65, 115 г/м2" type="paper" code="5877" density="115" format="470x650" cost1000="1700.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 47*65, 130 г/м2" type="paper" code="5884" density="130" format="470x650" cost1000="1930.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 47*65, 150 г/м2" type="paper" code="5891" density="150" format="470x650" cost1000="2220.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 47*65, 170 г/м2" type="paper" code="5898" density="170" format="470x650" cost1000="2570.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 47*65, 200 г/м2" type="paper" code="5905" density="200" format="470x650" cost1000="3020.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 47*65, 250 г/м2" type="paper" code="5912" density="250" format="470x650" cost1000="3780.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 47*65, 300 г/м2" type="paper" code="5919" density="300" format="470x650" cost1000="4540.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 47*65, 90 г/м2" type="paper" code="5863" density="90" format="470x650" cost1000="1330.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 52*72, 100 г/м2" type="paper" code="5871" density="100" format="520x720" cost1000="1820.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 52*72, 115 г/м2" type="paper" code="5878" density="115" format="520x720" cost1000="2090.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 52*72, 130 г/м2" type="paper" code="5885" density="130" format="520x720" cost1000="2360.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 52*72, 150 г/м2" type="paper" code="5892" density="150" format="520x720" cost1000="2720.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 52*72, 170 г/м2" type="paper" code="5899" density="170" format="520x720" cost1000="3150.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 52*72, 200 г/м2" type="paper" code="5906" density="200" format="520x720" cost1000="3710.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 52*72, 250 г/м2" type="paper" code="5913" density="250" format="520x720" cost1000="4630.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 52*72, 300 г/м2" type="paper" code="5920" density="300" format="520x720" cost1000="5560.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 52*72, 90 г/м2" type="paper" code="5864" density="90" format="520x720" cost1000="1630.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 62*94, 100 г/м2" type="paper" code="5872" density="100" format="620x940" cost1000="2830.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 62*94, 115 г/м2" type="paper" code="5879" density="115" format="620x940" cost1000="3250.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 62*94, 130 г/м2" type="paper" code="5886" density="130" format="620x940" cost1000="3670.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 62*94, 150 г/м2" type="paper" code="5893" density="150" format="620x940" cost1000="4240.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 62*94, 170 г/м2" type="paper" code="5900" density="170" format="620x940" cost1000="4900.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 62*94, 200 г/м2" type="paper" code="5907" density="200" format="620x940" cost1000="5770.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 62*94, 250 г/м2" type="paper" code="5914" density="250" format="620x940" cost1000="7210.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 62*94, 300 г/м2" type="paper" code="5921" density="300" format="620x940" cost1000="8650.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 62*94, 90 г/м2" type="paper" code="5865" density="90" format="620x940" cost1000="2540.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 64*90, 100 г/м2" type="paper" code="5873" density="100" format="640x900" cost1000="2790.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 64*90, 115 г/м2" type="paper" code="5880" density="115" format="640x900" cost1000="3210.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 64*90, 130 г/м2" type="paper" code="5887" density="130" format="640x900" cost1000="3630.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 64*90, 150 г/м2" type="paper" code="5894" density="150" format="640x900" cost1000="4190.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 64*90, 170 г/м2" type="paper" code="5901" density="170" format="640x900" cost1000="4850.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 64*90, 200 г/м2" type="paper" code="5908" density="200" format="640x900" cost1000="5700.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 64*90, 250 г/м2" type="paper" code="5915" density="250" format="640x900" cost1000="7130.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 64*90, 300 г/м2" type="paper" code="5922" density="300" format="640x900" cost1000="8550.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 64*90, 90 г/м2" type="paper" code="5866" density="90" format="640x900" cost1000="2510.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 70*100, 100 г/м2" type="paper" code="5874" density="100" format="700x1000" cost1000="3390.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 70*100, 115 г/м2" type="paper" code="5881" density="115" format="700x1000" cost1000="3900.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 70*100, 130 г/м2" type="paper" code="5888" density="130" format="700x1000" cost1000="4410.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 70*100, 150 г/м2" type="paper" code="5895" density="150" format="700x1000" cost1000="5090.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 70*100, 170 г/м2" type="paper" code="5902" density="170" format="700x1000" cost1000="5890.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 70*100, 200 г/м2" type="paper" code="5909" density="200" format="700x1000" cost1000="6930.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 70*100, 250 г/м2" type="paper" code="5916" density="250" format="700x1000" cost1000="8660.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 70*100, 300 г/м2" type="paper" code="5923" density="300" format="700x1000" cost1000="10390.0" />
+  <paper title="Бумага 'ТомОтто' глянцевая, матовая 70*100, 90 г/м2" type="paper" code="5867" density="90" format="700x1000" cost1000="3060.0" />
+  <paper title="Картон 'Карта Элега' 62*94, 210 г/м2" type="carton" code="5936" density="210" format="620x940" cost1000="8690.0" />
+  <paper title="Картон 'Карта Элега' 62*94, 255 г/м2" type="carton" code="5941" density="255" format="620x940" cost1000="10550.0" />
+  <paper title="Картон 'Карта Элега' 62*94, 270 г/м2" type="carton" code="5944" density="270" format="620x940" cost1000="11170.0" />
+  <paper title="Картон 'Карта Элега' 62*94, 290 г/м2" type="carton" code="5948" density="290" format="620x940" cost1000="12000.0" />
+  <paper title="Картон 'Карта Элега' 62*94, 305 г/м2" type="carton" code="5950" density="305" format="620x940" cost1000="12620.0" />
+  <paper title="Картон 'Карта Элега' 70*100, 210 г/м2" type="carton" code="5937" density="210" format="700x1000" cost1000="10440.0" />
+  <paper title="Картон 'Карта Элега' 70*100, 230 г/м2" type="carton" code="5939" density="230" format="700x1000" cost1000="11430.0" />
+  <paper title="Картон 'Карта Элега' 70*100, 255 г/м2" type="carton" code="5942" density="255" format="700x1000" cost1000="12670.0" />
+  <paper title="Картон 'Карта Элега' 70*100, 270 г/м2" type="carton" code="5945" density="270" format="700x1000" cost1000="13420.0" />
+  <paper title="Картон 'Карта Элега' 72*104, 210 г/м2" type="carton" code="5938" density="210" format="720x1040" cost1000="11160.0" />
+  <paper title="Картон 'Карта Элега' 72*104, 230 г/м2" type="carton" code="5940" density="230" format="720x1040" cost1000="12230.0" />
+  <paper title="Картон 'Карта Элега' 72*104, 255 г/м2" type="carton" code="5943" density="255" format="720x1040" cost1000="13560.0" />
+  <paper title="Картон 'Карта Элега' 72*104, 270 г/м2" type="carton" code="5946" density="270" format="720x1040" cost1000="14350.0" />
+  <paper title="Картон 'Карта Элега' 72*104, 280 г/м2" type="carton" code="5947" density="280" format="720x1040" cost1000="14890.0" />
+  <paper title="Картон 'Карта Элега' 72*104, 290 г/м2" type="carton" code="5949" density="290" format="720x1040" cost1000="15420.0" />
+  <paper title="Картон 'Карта Элега' 72*104, 305 г/м2" type="carton" code="5951" density="305" format="720x1040" cost1000="16220.0" />
+  <paper title="Картон 'Трукард' 62*94, 260 г/м2" type="carton" code="5952" density="260" format="620x940" cost1000="9850.0" />
+  <paper title="Картон 'Трукард' 62*94, 280 г/м2" type="carton" code="5955" density="280" format="620x940" cost1000="10610.0" />
+  <paper title="Картон 'Трукард' 62*94, 300 г/м2" type="carton" code="5958" density="300" format="620x940" cost1000="11360.0" />
+  <paper title="Картон 'Трукард' 70*100, 260 г/м2" type="carton" code="5953" density="260" format="700x1000" cost1000="11830.0" />
+  <paper title="Картон 'Трукард' 70*100, 280 г/м2" type="carton" code="5956" density="280" format="700x1000" cost1000="12740.0" />
+  <paper title="Картон 'Трукард' 70*100, 300 г/м2" type="carton" code="5959" density="300" format="700x1000" cost1000="13650.0" />
+  <paper title="Картон 'Трукард' 72*102, 350 г/м2" type="carton" code="5961" density="350" format="720x1020" cost1000="16710.0" />
+  <paper title="Картон 'Трукард' 72*104, 260 г/м2" type="carton" code="5954" density="260" format="720x1040" cost1000="12650.0" />
+  <paper title="Картон 'Трукард' 72*104, 280 г/м2" type="carton" code="5957" density="280" format="720x1040" cost1000="13630.0" />
+  <paper title="Картон 'Трукард' 72*104, 300 г/м2" type="carton" code="5960" density="300" format="720x1040" cost1000="14600.0" />
+  <paper title="Офсет 47*62, 80 г/м2" type="offset" code="5965" density="80" format="470x620" cost1000="1065.0" />
+  <paper title="Офсет 47*65, 70 г/м2" type="offset" code="5962" density="70" format="470x650" cost1000="1035.0" />
+  <paper title="Офсет 47*65, 80 г/м2" type="offset" code="5966" density="80" format="470x650" cost1000="1115.0" />
+  <paper title="Офсет 62*94, 100 г/м2" type="offset" code="5971" density="100" format="620x940" cost1000="2800.0" />
+  <paper title="Офсет 62*94, 120 г/м2" type="offset" code="5974" density="120" format="620x940" cost1000="3360.0" />
+  <paper title="Офсет 62*94, 170 г/м2" type="offset" code="5978" density="170" format="620x940" cost1000="4760.0" />
+  <paper title="Офсет 62*94, 70 г/м2" type="offset" code="5963" density="70" format="620x940" cost1000="1880.0" />
+  <paper title="Офсет 62*94, 80 г/м2" type="offset" code="5967" density="80" format="620x940" cost1000="2100.0" />
+  <paper title="Офсет 64*90, 100 г/м2" type="offset" code="5972" density="100" format="640x900" cost1000="2765.0" />
+  <paper title="Офсет 64*90, 120 г/м2" type="offset" code="5975" density="120" format="640x900" cost1000="3320.0" />
+  <paper title="Офсет 64*90, 80 г/м2" type="offset" code="5968" density="80" format="640x900" cost1000="2070.0" />
+  <paper title="Офсет 70*100, 100 г/м2" type="offset" code="5973" density="100" format="700x1000" cost1000="3360.0" />
+  <paper title="Офсет 70*100, 120 г/м2" type="offset" code="5976" density="120" format="700x1000" cost1000="4030.0" />
+  <paper title="Офсет 70*100, 190 г/м2" type="offset" code="5979" density="190" format="700x1000" cost1000="6650.0" />
+  <paper title="Офсет 70*100, 70 г/м2" type="offset" code="5964" density="70" format="700x1000" cost1000="2255.0" />
+  <paper title="Офсет 70*100, 80 г/м2" type="offset" code="5969" density="80" format="700x1000" cost1000="2520.0" />
+  <paper title="Офсет 72*104, 120 г/м2" type="offset" code="5977" density="120" format="720x1040" cost1000="4310.0" />
+  <paper title="Офсет 72*104, 80 г/м2" type="offset" code="5970" density="80" format="720x1040" cost1000="2700.0" />
+  <paper title="Полуглянцевая самоклеящаяся бумага 'Стикотак', постоянный клей, с насечкой, без  43*61, 80 г/м2" type="self_adhesive_paper" code="5995" density="80" format="430x610" cost1000="7000.0" />
+  <paper title="Полуглянцевая самоклеящаяся бумага 'Стикотак', постоянный клей, с насечкой, без  50*70, 80 г/м2" type="self_adhesive_paper" code="5996" density="80" format="500x700" cost1000="9000.0" />
+</materials>
