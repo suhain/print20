@@ -12,7 +12,7 @@ if (!isset($_GET["cover"])) {
     if ($_GET["product"] == "Booklet_(brace)" || $_GET["product"] == "Booklet_(termo-glue)" || $_GET["product"] == "Booklet_(spring)") {
         echo $chromacity[0];
         echo $chromacity[3];
-    } else if ($_GET["product"] == "Sticker" || $_GET["product"] == "Stamping_sticker") {
+    } else if ($_GET["product"] == "Sticker" || $_GET["product"] == "Stamping_sticker" || $_GET["product"] == "Kubarik") {
         echo $chromacity[2];
         echo $chromacity[4];
     } else if ($_GET["product"] == "Notebook_(spring)") {

@@ -51,7 +51,7 @@ if (!isset($_GET["cover"])) {
     $simple = array(
         "Booklet_(brace)",
         "Booklet_(spring)",
-        "Notebook_(spring)",
+        "Notebook_(spring)"
     );
 
     function is_simple($product) {

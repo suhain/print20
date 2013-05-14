@@ -11,6 +11,11 @@ class product {
             $this->data[$key] = $value;
         }
     }
+    
+    private function convert_chromacity($chromacity) {
+        $tmp = explode(' ', $chromacity);
+        return $tmp[0] . 'x' . $tmp[1];
+    }
 
     public function get_array() {
 
@@ -42,7 +47,7 @@ class product {
         }
 
         // tag parts -> block
-        $result['parts']['block']['chromacity'] = $this->data['chromacity'];
+        $result['parts']['block']['chromacity'] = $this->convert_chromacity($this->data['chromacity']);
         $result['parts']['block']['pages'] = $this->data['pages'];
         $result['parts']['block']['density'] = $this->data['density'];
 
@@ -59,7 +64,7 @@ class product {
         }
 
         // operation vd
-        if ($this->data['vd'] != 'no') {
+        if ($this->data['vd'] != '0') {
             $temp = explode(' ', $this->data['vd']);
             $vd_attrs['side'] = $temp[0];
             $vd_attrs['type'] = $temp[1];
@@ -69,7 +74,7 @@ class product {
         }
 
         // operation laminate
-        if ($this->data['lamination'] != 0) {
+        if ($this->data['lamination'] != '0') {
             $temp = explode(' ', $this->data['lamination']);
             $lamination_attrs['side'] = $temp[0];
             $lamination_attrs['type'] = $temp[1];
@@ -79,11 +84,11 @@ class product {
         }
 
         // operation uf
-        if ($this->data['uf'] != 0) {
+        if ($this->data['uf'] != '0') {
             $temp = explode(' ', $this->data['uf']);
             $uf_attrs['side'] = $temp[0];
             $uf_attrs['type'] = $temp[1];
-            $uf_attrs['selected'] = isset($this->data['choose_uf']) ? 'true' : 'false';
+            $uf_attrs['selected'] = count($temp) == 3 ? 'true' : 'false';
             $result['parts']['block']['operations']['uf_varnishing'] = array(
                 '@attributes' => $uf_attrs
             );
@@ -95,7 +100,7 @@ class product {
 
         //tag parts -> cover
         if ($this->data['cover'] == 2) {
-            $result['parts']['cover']['chromacity'] = $this->data['cover-chromacity'];
+            $result['parts']['cover']['chromacity'] = $this->convert_chromacity($this->data['cover-chromacity']);
             $result['parts']['cover']['pages'] = $this->data['cover-pages'];
             $result['parts']['cover']['density'] = $this->data['cover-density'];
 
@@ -107,7 +112,7 @@ class product {
             $result['parts']['cover']['operations'] = array();
 
             // cover operation vd
-            if ($this->data['cover-vd'] != 0) {
+            if ($this->data['cover-vd'] != '0') {
                 $temp = explode(' ', $this->data['cover-vd']);
                 $vd_attrs['side'] = $temp[0];
                 $vd_attrs['type'] = $temp[1];
@@ -117,7 +122,7 @@ class product {
             }
 
             // cover operation laminate
-            if ($this->data['cover-lamination'] != 0) {
+            if ($this->data['cover-lamination'] != '0') {
                 $temp = explode(' ', $this->data['cover-lamination']);
                 $lamination_attrs['side'] = $temp[0];
                 $lamination_attrs['type'] = $temp[1];
@@ -127,11 +132,11 @@ class product {
             }
 
             // cover operation uf
-            if ($this->data['cover-uf'] != 0) {
+            if ($this->data['cover-uf'] != '0') {
                 $temp = explode(' ', $this->data['cover-uf']);
                 $uf_attrs['side'] = $temp[0];
                 $uf_attrs['type'] = $temp[1];
-                $uf_attrs['selected'] = isset($this->data['choose_cover_uf']) ? 'true' : 'false';
+                $uf_attrs['selected'] = isset($temp[2]) ? 'true' : 'false';
                 $result['parts']['cover']['operations']['uf_varnishing'] = array(
                     '@attributes' => $uf_attrs
                 );

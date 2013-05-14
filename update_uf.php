@@ -14,70 +14,53 @@ $chromacity = $_GET["chromacity"];
 $common = (bool) (($material == "paper" || $material == "carton") && $density >= 115 && $chromacity != "0 0");
 $onesided = (bool) ($chromacity == "4 0" || $chromacity == "1 0");
 $lamination = $_GET["lamination"];
+echo $uf[0];
 if (!isset($_GET["cover"])) { // block
-    echo $uf[0];
     if ($product == "Sticker" || $product == "Stamping_sticker") {
         echo $uf[1];
         echo $uf[2];
     } else
     if ($common) {
-        if ($product == "Booklet_(brace)" || $product == "Booklet_(spring)") {
-            if ($lamination == "0") {
-                if (!$onesided)
-                    echo $uf[4];
-            }
-        } if ($product == "Booklet_(termo-glue)") {
-            if (!$onesided)
-                echo $uf[4];
-        } else {
-            if ($lamination == "one_matted") {
-                echo $uf[1];
-                echo $uf[2];
-            }
-            if ($lamination == "one_glossy") {
-                echo $uf[1];
-                echo $uf[2];
-                if (!$onesided)
-                    echo $uf[4];
-            }
-            if ($lamination == "two_glossy") {
-                echo $uf[2];
-                if (!$onesided)
-                    echo $uf[4];
-            }
+        if ($lamination == "0") {
+            if ($product != "Booklet_(termo-glue)" && $product != "Notebook_(spring)" && $product != "Kubarik") echo $uf[1];
+            if ($product != "Booklet_(termo-glue)") echo $uf[2];
+            if (!$onesided && $product != "Booklet_(termo-glue)" && $product != "Notebook_(spring)") echo $uf[3];
+            if (!$onesided) echo $uf[4];
+        }
+        if ($lamination == "one_matted") {
+            if ($product != "Notebook_(spring)" && $product != "Kubarik") echo $uf[1];
+            echo $uf[2];
+            if (!$onesided) echo $uf[4];
+        }
+        if ($lamination == "one_glossy") {
+            if ($product != "Notebook_(spring)" && $product != "Kubarik") echo $uf[1];
+            echo $uf[2];
+        }
+        if ($lamination == "two_matted") {
+            echo $uf[2];
+            if (!$onesided) echo $uf[4];
         }
     }
 } else { // cover
-    echo $uf[0];
     if ($common) {
-        if ($product == "Booklet_(brace)" || $product == "Booklet_(spring)" || $product == "Booklet_(termo-glue)") {
-            if ($onesided) {
-                if ($lamination == "0" || $lamination == "one_matted" || $lamination == "one_glossy") {
-                    echo $uf[1];
-                }
-            } else {
-                if ($lamination == "0") {
-                    echo $uf[1];
-                    echo $uf[2];
-                }
-                if ($lamination == "one_matted" || $lamination == "one_glossy") {
-                    echo $uf[1];
-                }
-            }
-        } else {
-            if ($onesided) {
-                if ($lamination == "0" || $lamination == "one_matted" || $lamination == "one_glossy") {
-                    echo $uf[1];
-                }
-            } else {
-                if ($lamination == "0") {
-                    echo $uf[1];
-                    echo $uf[2];
-                }
-                if ($lamination == "one_matted" || $lamination == "one_glossy") {
-                    echo $uf[1];
-                }
-            }
+        if ($lamination == "0") {
+            echo $uf[1];
+            echo $uf[2];
+            if (!$onesided && $product != "Booklet_(termo-glue)") echo $uf[3];
+            if (!$onesided) echo $uf[4];
+        }
+        if ($lamination == "one_matted") {
+            if ($product != "Booklet_(termo-glue)") echo $uf[1];
+            echo $uf[2];
+            if (!$onesided) echo $uf[4];
+        }
+        if ($lamination == "one_glossy") {
+            if ($product != "Booklet_(termo-glue)") echo $uf[1];
+            echo $uf[2];
+        }
+        if ($lamination == "two_matted") {
+            echo $uf[2];
+            if (!$onesided) echo $uf[4];
         }
     }
 }
