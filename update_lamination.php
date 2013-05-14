@@ -40,7 +40,7 @@ if (!isset($_GET["cover"])) {
         echo $lamination[0];
         echo $lamination[3];
         echo $lamination[4];
-    } else if (is_simple($product) && $material == "self_adhesive") {
+    } else if ((is_simple($product) && $material == "self_adhesive") /*|| ($product == "Booklet_(termo-glue)" && $common)*/) {
         echo $lamination[0];
         echo $lamination[1];
         echo $lamination[2];

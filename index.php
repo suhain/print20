@@ -11,7 +11,6 @@
         <link rel="stylesheet" href="css/bootstrap.css"  media="screen">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/style.css"  media="screen">
-
     </head>
     <body>
         <form action="" method="post">
@@ -147,18 +146,18 @@
                             <div class="span6" id="fifth-param">
                                 <p style="font-weight:bold;">Продукт</p>
                                 <div class="row">
+                                    <div class="span1 help-calc"></div>
+                                    <div class="span2" style="width:150px; margin-left:10px;"><label for="lamination">Ламинация 25 мкм:</label></div>
+                                    <div class="span3">
+                                        <select name="lamination" id="lamination" style="width:170px;"></select>
+                                    </div>
+                                </div>
+                                <div class="row">
                                     <div class="span1 help-calc">
                                     </div>
                                     <div class="span2" style="width:150px; margin-left:10px;"><label for="vd">Покрытие ВД-лаком:</label></div>
                                     <div class="span3">
                                         <select name="vd" id="vd" style="width:170px;"></select>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="span1 help-calc"></div>
-                                    <div class="span2" style="width:150px; margin-left:10px;"><label for="lamination">Ламинация 25 мкм:</label></div>
-                                    <div class="span3">
-                                        <select name="lamination" id="lamination" style="width:170px;"></select>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -177,21 +176,17 @@
                                 <p style="font-weight:bold;">Обложка</p>
                                 <div class="row">
                                     <div class="span3">
-                                        <select name="cover-vd" id="cover-vd" style="width:170px;"></select>
-                                    </div>    
-                                </div>
-                                <div class="row">
-                                    <div class="span3">
                                         <select name="cover-lamination" id="cover-lamination" style="width:170px;"></select>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="span3">
+                                        <select name="cover-vd" id="cover-vd" style="width:170px;"></select>
+                                    </div>    
+                                </div>
+                                <div class="row">
+                                    <div class="span3">
                                         <select name="cover-uf" id="cover-uf" style="width:170px;"></select>
-                                        <br>
-                                        <label class="checkbox" style="margin-left:1px;" id="cover_uf_checkbox">
-                                            <input type="hidden" name="choose_cover_uf" id="choose_cover_uf" value=""> 
-                                        </label>
                                     </div>
                                 </div>
                             </div>

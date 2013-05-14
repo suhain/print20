@@ -23,6 +23,10 @@ if (!isset($_GET["cover"])) {
 } else {
     if ($product == "Booklet_(termo-glue)") {
         if ($material == "paper") range_d(170, 1000);    
+    } else if ($product == "Notebook_(spring)") {
+        range_d(150, 1000);
+    } else if ($product == "Booklet_(spring)") {
+        range_d(170, 1000);
     }
     else range_d(0, 1000);
 }
