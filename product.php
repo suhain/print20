@@ -54,6 +54,7 @@ class product {
         // tag parts -> materials        
         $result['parts']['block']['materials']['type'] = $this->data['type'];
         if ($this->data['surface'] != 0) $result['parts']['block']['materials']['surface'] = $this->data['surface'];
+        else $result['parts']['block']['materials']['surface'] = 'glossy';
 
         // tag parts -> operations
         $result['parts']['block']['operations'] = array();
@@ -107,6 +108,7 @@ class product {
             // parts -> cover -> materials
             $result['parts']['cover']['materials']['type'] = $this->data['cover-type'];
             if ($this->data['cover-surface'] != 0) $result['parts']['cover']['materials']['surface'] = $this->data['cover-surface'];
+            else $result['parts']['cover']['materials']['surface'] = 'glossy';
 
             // tag parts -> cover -> operations
             $result['parts']['cover']['operations'] = array();
