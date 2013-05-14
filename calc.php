@@ -47,7 +47,7 @@ if ($_SERVER['HTTP_X_REQUESTED_WITH'] == 'XMLHttpRequest') {
 //    echo "Итого: " . $total_cost . "<br>";
 //    echo "<br>";
     echo "<a href=" . $input_path . $arg . '.xml' . ">input Xml</a><br><br>";
-//    echo "<a href=output/productOut.xml>output Xml</a><br><br>";
+    echo "<a href=output/productOut.xml>output Xml</a><br><br>";
 //    $comment = $post['comment'];
 }
 ?>

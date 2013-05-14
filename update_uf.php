@@ -1,7 +1,7 @@
 <?php
 
 $uf = array(
-    0 => "<option value='no'>Не покрывать</option>",
+    0 => "<option value='0'>Не покрывать</option>",
     1 => "<option value='one glossy'>Односторонний глянцевый(Сплошной)</option>",
     2 => "<option value='one glossy selected'>Односторонний глянцевый(Выборочный)</option>",
     3 => "<option value='two glossy'>Двусторонний глянцевый(Сплошной)</option>",
