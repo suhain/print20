@@ -5,6 +5,7 @@ if (!isset($_GET["cover"])) {
         "Booklet",
         "Eurobooklet",
         "Booklet_(3)",
+        "Booklet_(2)",
         "Leaflet",
         "Booklet_(brace)",
         "Booklet_(spring)",
