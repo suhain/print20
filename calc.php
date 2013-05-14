@@ -6,7 +6,6 @@ if ($_SERVER['HTTP_X_REQUESTED_WITH'] == 'XMLHttpRequest') {
     require_once 'save_product.php';
     foreach ($_POST as $key => $value) {
         $post[$key] = $value;
-//        echo $key . ' ' . $value . '<br>';
     }
     $temp_str = $_POST['choose-product'];
     for ($i = 0; $i < strlen($temp_str); $i++)

@@ -45,6 +45,21 @@
         "block_operations": {},
         "common_operations": {}
     },
+    "Booklet (2)": {
+        "folding_count": 2,
+        "is_folded": true,
+        "is_bind": false,
+        "pages_on_spread": 6,
+        "formats": ["148x105", "210x148", "210x99"],
+        "name": "Booklet (2)",
+        "name_ru": "Буклет (2)",
+        "is_felling": false,
+        "binding_type": null,
+        "is_mono_picture": true,
+        "type": "singlepage",
+        "block_operations": {},
+        "common_operations": {}
+    },
     "Leaflet": {
         "folding_count": 0,
         "is_folded": false,
@@ -237,7 +252,7 @@
         "type": "singlepage",
         "block_operations": {},
         "common_operations": {}
-   },
+    },
     "Stamping sticker": {
         "name": "Stamping sticker",
         "name_ru": "Наклейка вырубная",

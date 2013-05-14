@@ -1,192 +1,219 @@
 {
-    "Booklet": {
-        "folding_count": 1,
-        "is_folded": true,
-        "is_bind": false,
-        "pages_on_spread": 4,
-        "formats": ["148x105", "210x148", "297x210", "200x100"],
-        "name": "Booklet",
+	"Booklet": {
+		"folding_count": 1,
+		"is_folded": true,
+		"is_bind": false,
+		"pages_on_spread": 4,
+		"formats": ["148x105", "210x148", "297x210", "200x100"],
+		"name": "Booklet",
         "name_ru": "Буклет",
-        "is_felling": false,
-        "binding_type": null,
+		"is_felling": false, 
+		"binding_type": null,
         "is_mono_picture": true,
-        "type": "singlepage",
-        "block_operations": {},
-        "common_operations": {
-        }
-    },
-    "Eurobooklet": {
-        "folding_count": 2,
-        "is_folded": true,
-        "is_bind": false,
-        "pages_on_spread": 6,
-        "formats": ["210x99"],
-        "name": "Eurobooklet",
-        "name_ru": "Евробуклет",
-        "is_felling": false,
-        "binding_type": null,
-        "is_mono_picture": true,
-        "type": "singlepage",
-        "block_operations": {},
-        "common_operations": {}
-    },
-    "Booklet (3)": {
-        "folding_count": 3,
-        "is_folded": true,
-        "is_bind": false,
-        "pages_on_spread": 8,
-        "formats": ["148x105", "210x148", "210x99"],
-        "name": "Booklet (3)",
-        "name_ru": "Буклет (3)",
-        "is_felling": false,
-        "binding_type": null,
-        "is_mono_picture": true,
-        "type": "singlepage",
-        "block_operations": {},
-        "common_operations": {}
-    },
-    "Leaflet": {
-        "folding_count": 0,
-        "is_folded": false,
-        "is_bind": false,
-        "pages_on_spread": 2,
-        "formats": ["210x200", "210x148", "148x105", "210x98", "297x210", "150x70", "120x120", "105x74"],
-        "name": "Leaflet",
-        "name_ru": "Листовка",
-        "binding_type": null,
-        "is_felling": false,
-        "type": "singlepage",
-        "is_mono_picture": true,
-        "block_operations": {},
-        "common_operations": {}
-    },
-    "Booklet (brace)": {
-        "folding_count": 1,
-        "is_folded": false,
-        "is_bind": true,
-        "pages_on_spread": 4,
-        "formats": ["297x210",
-            "210x148"],
-        "name": "Booklet (brace)",
-        "is_felling": false,
-        "name_ru": "Брошюра (скоба)",
-        "binding_type": "brace",
-        "is_mono_picture": false,
-        "type": "multipage",
-        "block_operations": {},
-        "common_operations": {}
+        "type": "singlepage",		
+		"block_operations": {},
+		"common_operations": {
 
-    },
-    "Booklet (spring)": {
-        "folding_count": 0,
-        "is_folded": false,
-        "is_bind": true,
-        "pages_on_spread": 2,
-        "formats": ["297x210",
-            "210x148"],
-        "name": "Booklet (spring)",
-        "name_ru": "Брошюра (пружина)",
-        "is_felling": false,
-        "binding_type": "spring",
+		}
+	},
+
+	"Eurobooklet": {
+		"folding_count": 2,
+		"is_folded": true,
+		"is_bind": false,
+		"pages_on_spread": 6,
+		"formats": ["210x99"],
+		"name": "Eurobooklet",
+        "name_ru": "Евробуклет",
+		"is_felling": false, 
+		"binding_type": null,
+        "is_mono_picture": true,
+        "type": "singlepage",
+		"block_operations": {},
+		"common_operations": {}
+	},
+
+	"Booklet (3)": {
+		"folding_count": 3,
+		"is_folded": true,
+		"is_bind": false,
+		"pages_on_spread": 8,
+		"formats": ["148x105", "210x148", "210x99"],
+		"name": "Booklet (3)",
+        "name_ru": "Буклет (3)",
+		"is_felling": false, 
+		"binding_type": null,
+        "is_mono_picture": true,
+        "type": "singlepage",
+		"block_operations": {},
+		"common_operations": {}
+	},
+
+	"Booklet (2)": {
+		"folding_count": 2,
+		"is_folded": true,
+		"is_bind": false,
+		"pages_on_spread": 6,
+		"formats": ["148x105", "210x148", "210x99"],
+		"name": "Booklet (2)",
+        "name_ru": "Буклет (2)",
+		"is_felling": false, 
+		"binding_type": null,
+        "is_mono_picture": true,
+        "type": "singlepage",
+		"block_operations": {},
+		"common_operations": {}
+	},
+
+	"Leaflet": {
+		"folding_count": 0,
+		"is_folded": false,
+		"is_bind": false,
+		"pages_on_spread": 2,
+		"formats": ["210x200", "210x148", "148x105", "210x98", "297x210", "150x70", "120x120", "105x74"],
+		"name": "Leaflet",
+        "name_ru": "Листовка",
+		"binding_type": null,
+		"is_felling": false, 
+        "type": "singlepage",
+        "is_mono_picture": true,
+		"block_operations": {},
+		"common_operations": {}
+	},
+	"Booklet (brace)": {
+		"folding_count": 1,
+		"is_folded": false,
+		"is_bind": true,
+		"pages_on_spread": 4,
+		"formats": ["297x210",
+		"210x148"],
+		"name": "Booklet (brace)",
+		"is_felling": false, 
+        "name_ru": "Брошюра (скоба)",
+		"binding_type": "brace",
         "is_mono_picture": false,
         "type": "multipage",
-        "block_operations": {},
-        "common_operations": {
-        }
-    },
-    "Postcard": {
-        "folding_count": 0,
-        "is_folded": false,
-        "is_bind": false,
-        "pages_on_spread": 2,
-        "formats": ["210x200",
-            "210x148",
-            "148x105",
-            "210x98"],
-        "name": "Postcard",
-        "is_felling": false,
+		"block_operations": {},
+		"common_operations": {}
+        
+	},
+	"Booklet (spring)": {
+		"folding_count": 0,
+		"is_folded": false,
+		"is_bind": true,
+		"pages_on_spread": 2,
+		"formats": ["297x210",
+		"210x148"],
+		"name": "Booklet (spring)",
+        "name_ru": "Брошюра (пружина)",
+		"is_felling": false, 
+		"binding_type": "spring",
+        "is_mono_picture": false,
+        "type": "multipage",
+		"block_operations": {},
+		"common_operations": {
+
+		}
+	},
+	"Postcard": {
+		"folding_count": 0,
+		"is_folded": false,
+		"is_bind": false,
+		"pages_on_spread": 2,
+		"formats": ["210x200",
+		"210x148",
+		"148x105",
+		"210x98"],
+		"name": "Postcard",
+		"is_felling": false, 
         "name_ru": "Открытка",
-        "binding_type": null,
+		"binding_type": null,
         "is_mono_picture": true,
         "type": "singlepage",
-        "block_operations": {},
-        "common_operations": {
-        }
-    },
-    "Flyer": {
-        "folding_count": 0,
-        "is_folded": false,
-        "is_bind": false,
-        "pages_on_spread": 2,
-        "formats": ["210x148",
-            "148x105",
-            "210x98"],
-        "name": "Flyer",
+		"block_operations": {},
+		"common_operations": {
+
+		}
+	},
+	"Flyer": {
+		"folding_count": 0,
+		"is_folded": false,
+		"is_bind": false,
+		"pages_on_spread": 2,
+		"formats": ["210x148",
+		"148x105",
+		"210x98"],
+		"name": "Flyer",
         "name_ru": "Флаер",
-        "is_felling": false,
-        "binding_type": null,
+		"is_felling": false, 
+		"binding_type": null,
         "is_mono_picture": true,
         "type": "singlepage",
-        "block_operations": {},
-        "common_operations": {
-        }
-    },
-    "Poster": {
-        "folding_count": 0,
-        "is_folded": false,
-        "is_bind": false,
-        "pages_on_spread": 2,
-        "formats": ["297x210",
-            "420x297",
-            "420x594"],
-        "name": "Poster",
+		"block_operations": {},
+		"common_operations": {
+
+		}
+	},
+    
+	"Poster": {
+		"folding_count": 0,
+		"is_folded": false,
+		"is_bind": false,
+		"pages_on_spread": 2,
+		"formats": ["297x210",
+		"420x297",
+		"420x594"],
+		"name": "Poster",
         "name_ru": "Плакат",
-        "is_felling": false,
-        "binding_type": null,
+		"is_felling": false, 
+		"binding_type": null,
         "is_mono_picture": true,
         "type": "singlepage",
-        "block_operations": {},
-        "common_operations": {
-        }
-    },
+		"block_operations": {},
+		"common_operations": {
+
+		}
+	},
     "Notebook (spring)": {
-        "name": "Notebook (spring)",
+		"name": "Notebook (spring)",
         "name_ru": "Блокнот (пружина)",
-        "folding_count": 0,
-        "is_folded": false,
-        "is_bind": true,
-        "binding_type": "spring",
-        "pages_on_spread": 2,
-        "is_felling": false,
-        "formats": ["297x210",
-            "420x297",
-            "420x594",
-            "120x100",
-            "140x100",
-            "210x148",
-            "148x105"],
+		"folding_count": 0,
+		"is_folded": false,
+		"is_bind": true,
+		"binding_type": "spring",
+		"pages_on_spread": 2,
+		"is_felling": false, 
+		"formats": ["297x210",
+		"420x297",
+		"420x594",
+        "120x100",
+        "140x100",
+        "210x148",
+        "148x105"],
         "is_mono_picture": true,
         "type": "multipage",
-        "block_operations": {},
-        "common_operations": {
-            "counting_of_pages": []
-        }
-    },
+		"block_operations": {},
+		"common_operations": {
+			"counting_of_pages": []
+		}
+	},
+    
     "Booklet (termo-glue)": {
         "name": "Booklet (termo-glue)",
         "folding_count": 0,
         "is_folded": false,
         "is_bind": true,
         "binding_type": "termo_glue",
-        "is_felling": false,
+		"is_felling": false, 
         "name_ru": "Брошюра (термоклей)",
         "pages_on_spread": 2,
         "formats": ["297x210", "210x148", "210x210"],
         "is_mono_picture": false,
         "type": "multipage",
-        "block_operations": {},
+		"block_operations": {},
         "common_operations": {}
     },
+    
     "Kubarik": {
         "name": "Kubarik",
         "name_ru": "Кубарик",
@@ -195,64 +222,66 @@
         "is_folded": false,
         "binding_type": "pva_glue",
         "pages_on_spread": 2,
-        "is_felling": false,
+		"is_felling": false, 
         "formats": ["90x90", "100x100", "120x120"],
         "is_mono_picture": true,
         "type": "multipage",
-        "block_operations": {},
+		"block_operations": {},
         "common_operations": {
-            "counting_of_pages": []
-        }
-
+			"counting_of_pages": []
+		}
+        
     },
     "Stamping product": {
         "name": "Stamping product",
         "name_ru": "Вырубное изделие",
-        "is_folded": false,
+        "is_folded": false,            
         "folding_count": 0,
         "is_bind": false,
         "binding_type": null,
         "pages_on_spread": 2,
-        "is_felling": true,
+		"is_felling": true, 
         "formats": ["100x100", "210x148", "297x210", "420x297", "210x210", "148x105"],
         "is_mono_picture": true,
         "type": "singlepage",
-        "block_operations": {
-            "felling": []
-        },
+		"block_operations": {
+			"felling": []
+		},
         "common_operations": {}
     },
-    "Sticker": {
+
+	"Sticker": {
         "name": "Sticker",
         "name_ru": "Наклейка",
-        "is_folded": false,
+        "is_folded": false,            
         "folding_count": 0,
         "is_bind": false,
         "binding_type": null,
         "pages_on_spread": 2,
-        "spreads_on_prod": 1,
-        "is_felling": false,
-        "formats": ["148x210", "200x200", "90x90"],
+		"spreads_on_prod": 1,
+		"is_felling": false, 
+        "formats": ["148x210", "200x200", "90x90"],		
         "is_mono_picture": true,
         "type": "singlepage",
-        "block_operations": {},
+		"block_operations": {},
         "common_operations": {}
-   },
-    "Stamping sticker": {
+    },	
+
+	"Stamping sticker": {
         "name": "Stamping sticker",
         "name_ru": "Наклейка вырубная",
-        "is_folded": false,
+        "is_folded": false,            
         "folding_count": 0,
         "is_bind": false,
         "binding_type": null,
         "pages_on_spread": 2,
-        "is_felling": true,
+		"is_felling": true, 
         "formats": ["148x210", "200x200", "90x90"],
         "is_mono_picture": true,
         "type": "singlepage",
-        "block_operations": {
-            "felling": []
-        },
+		"block_operations": {
+			"felling": []
+		},
         "common_operations": {}
     }
 }
