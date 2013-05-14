@@ -102,7 +102,7 @@ class product {
         //tag parts -> cover
         if ($this->data['cover'] == 2) {
             $result['parts']['cover']['chromacity'] = $this->convert_chromacity($this->data['cover-chromacity']);
-            $result['parts']['cover']['pages'] = $this->data['cover-pages'];
+            $result['parts']['cover']['pages'] = isset($this->data['cover-pages']) ? $this->data['cover-pages'] : '4';
             $result['parts']['cover']['density'] = $this->data['cover-density'];
 
             // parts -> cover -> materials
