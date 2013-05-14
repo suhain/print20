@@ -124,7 +124,7 @@
      
     <!-- spring binding -->
     <cost resource="spring">0.1</cost>
-    <cost operation="binding" type="spring">2</cost>
+    <cost operation="binding" type="spring">3</cost>
     <consumption resource="spring">12</consumption>
     <fitting_percentage operation="binding" type="spring">0.5</fitting_percentage>
     <fitting_product_count operation="binding" type="spring">20</fitting_product_count>
@@ -244,8 +244,8 @@
     <fitting_time machine="sm74">0.12</fitting_time>    
   
     <!-- waste -->
-    <waste operation="printing" to="1000">0.045</waste>
-    <waste operation="printing" from="1000" to="2000">0.03</waste>
+    <waste operation="printing" to="1001">0.045</waste>
+    <waste operation="printing" from="1001" to="2000">0.03</waste>
     <waste operation="printing" from="2000" to="3000">0.022</waste>
     <waste operation="printing" from="3000" to="4000">0.018</waste>
     <waste operation="printing" from="4000" to="5000">0.009</waste>
