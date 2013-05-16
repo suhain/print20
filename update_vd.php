@@ -4,10 +4,10 @@ $vd = array(
     0 => "<option value='0'>Не покрывать</option>",
     1 => "<option value='one matted'>Односторонний матовый</option>",
     2 => "<option value='one glossy'>Односторонний глянцевый</option>",
-    3 => "<option value='one offset'>Односторонний оффсетный</option>",
+    3 => "<option value='one offset'>Односторонний офсетный</option>",
     4 => "<option value='two matted'>Двусторонний матовый</option>",
     5 => "<option value='two glossy'>Двусторонний глянцевый</option>",
-    6 => "<option value='two offset'>Двусторонний оффсетный</option>"
+    6 => "<option value='two offset'>Двусторонний офсетный</option>"
 );
 //$vd = array(
 //    0 => "Не покрывать<br>",
